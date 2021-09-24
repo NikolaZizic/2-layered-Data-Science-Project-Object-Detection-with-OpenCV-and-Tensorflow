@@ -1,4 +1,4 @@
-<img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/background%201.jpg" width="988" height="123" />
+<img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/background%201.jpg" width="988" height="250" />
 
 # A 2-layered Data Science Project : Object Detection with OpenCV and Tensorflow
 
