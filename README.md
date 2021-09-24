@@ -135,7 +135,7 @@ You can find a demo version of our scraping script that takes the information fr
 ## Technologies Used
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
-![](https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/OpenCV.png)
+<img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/opencv-logo.png" width="232" height="75" />
 <img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/tensorflow.png" width="232" height="75" />
 
 
