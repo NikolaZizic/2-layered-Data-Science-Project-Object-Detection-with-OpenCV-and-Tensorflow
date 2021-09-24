@@ -136,7 +136,7 @@ You can find a demo version of our scraping script that takes the information fr
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
 ![](https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/OpenCV.png)
-![](https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/tensorflow.png)
+![](https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/tensorflow.png =232x36)
 
 
 
