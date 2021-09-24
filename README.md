@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/gbrdf/M1-programing-project/main/Unimportant%20folder/data-analytics-header-image.jpg)
+![](https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/background%201.jpg)
 
 # A 2-layered Data Science Project : Object Detection with OpenCV and Tensorflow
 
@@ -135,6 +135,10 @@ You can find a demo version of our scraping script that takes the information fr
 ## Technologies Used
 
 ![](https://forthebadge.com/images/badges/made-with-python.svg)
+![](https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/OpenCV.png)
+![](https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/tensorflow.png)
+
+
 
 
 
