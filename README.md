@@ -101,7 +101,7 @@ We will be using Labelimg that is a graphical image annotation tool. The idea is
 
 #### Choosing a model 
 
-We will be using the Tensorflow zoo that can be found  [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md).Since we want a model with an optimal balance between accuracy and speed, and a box shaped output for our detections, we decided to take the SSD MobileNet V2 FPNLite 320x320.
+We will be using the Tensorflow zoo that can be found  [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md). Since we want a model with an optimal balance between accuracy and speed, and a box shaped output for our detections, we decided to take the SSD MobileNet V2 FPNLite 320x320.
 
 
 ## Technologies Used
