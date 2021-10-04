@@ -53,7 +53,7 @@ import io
 ```
 ## Installation
 
-The Code is written in Python 3.8.5 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip.
+The code is written in Python 3.8.5 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip.
 
 <div id='face-detection'/>
 ## Part 1: Face detection with OpenCV
@@ -62,6 +62,7 @@ tba
 
 <div id='hand-gesture'/>
 ## Part 2: Hand gesture detection with Tensorflow
+
 
 
 > STEP 1
