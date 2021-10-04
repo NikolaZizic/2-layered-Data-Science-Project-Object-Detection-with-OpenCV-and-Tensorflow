@@ -8,8 +8,8 @@
   * [Motivation](#motivation)
   * [Technical Aspect](#technical-aspect)
   * [Installation](#installation)
+  * [Part 1: Face detection with OpenCV](#face-detection)
   * [Part 2: Hand gesture detection with Tensorflow](#hand-gesture)
-  * [Demo](#demo)
   * [Technologies Used](#technologies-used)
   * [Team](#team)
  
@@ -56,11 +56,13 @@ import io
 The code is written in Python 3.8.5 . If you don't have Python installed you can find it [here](https://www.python.org/downloads/). If you are using a lower version of Python you can upgrade using the pip package, ensuring you have the latest version of pip.
 
 <div id='face-detection'/>
+
 ## Part 1: Face detection with OpenCV
 
 tba
 
 <div id='hand-gesture'/>
+
 ## Part 2: Hand gesture detection with Tensorflow
 
 
