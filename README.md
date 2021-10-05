@@ -99,9 +99,18 @@ We will be using Labelimg that is a graphical image annotation tool. The idea is
 > STEP 3 
 
 
-#### Choosing a model 
+#### Choosing and training the model 
 
-We will be using the Tensorflow zoo that can be found  [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md). Since we want a model with an optimal balance between accuracy and speed, and a box shaped output for our detections, we decided to take the SSD MobileNet V2 FPNLite 320x320.
+We will be using the Tensorflow zoo that can be found  [here](https://github.com/tensorflow/models/blob/master/research/object_detection/g3doc/tf2_detection_zoo.md). When it comes to choosing a pre trained model to implement there is a few things to keep in mind. Usually a model that does faster detections does it with a smaller accuracy and a slow detection model can perform with a higher accuracy. Therefore, there is a tradeoff between speed and accuracy. Choosing a model will depend on the problem that you are trying to solve.  Since we want a model with an optimal balance between accuracy and speed, and a box shaped output for our detections, we decided to take the SSD MobileNet V2 FPNLite 320x320. It is also possible to use your GPU using cuda to train your model. Since we are using our laptops (that are relatively weak), we will be doing it using only our CPU. 
+
+If you are using a weaker PC/ laptop this can take quite a long time to train even for only 2000 steps. It can cause high temperatures inside your hardware so try to lower the temperature as much as you can. An external fan helped us a lot. 
+
+<img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/heat%20cmd.JPG">
+
+When the model finishes training, you can see the training metrics with Tensorboard using your localhost:6006.
+
+<img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/Tensorboard%20train%20merics.JPG">
+
 
 
 ## Technologies Used
