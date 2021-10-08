@@ -5,7 +5,6 @@
 ## Table of Content
   
   * [Overview](#overview)
-  * [Motivation](#motivation)
   * [Technical Aspect](#technical-aspect)
   * [Installation](#installation)
   * [Part 1: Face detection with OpenCV](#face-detection)
@@ -21,9 +20,7 @@
 
 ## Overview
 Our idea was to do two separate object detection applications, one that would detect different hand gestures and the other that would detect the face of the user and thus serve as a type of password to the main app. Plus we would use the different hand gestures that we have fed to the learning model to influence certain tasks on our computer like for example: if the app detects a thumbs up gesture it would increase the volume or maybe open Google Chrome etc. For this project, we will be using Tensorflow and OpenCV.
-
-## Motivation
-There is nothing more fun than finding your own data to analyze… or at least that is how we think. To accomplish that goal we would need a web-scraping tool. In our case we chose Beautiful soup. Although we are still new when it comes to the subject of data visualization we wanted to push the boundaries even further and try to see if we can analyze specific pictures in order to group them following a certain criteria : in our case a PEGI rating. We tried our best to do the project as professionally as possible and to show our passion for the subject at hand. 
+ 
 
 ## Technical Aspect
 
