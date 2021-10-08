@@ -22,26 +22,7 @@
 Our idea was to do two separate object detection applications, one that would detect different hand gestures and the other that would detect the face of the user and thus serve as a type of password to the main app. Plus we would use the different hand gestures that we have fed to the learning model to influence certain tasks on our computer like for example: if the app detects a thumbs up gesture it would increase the volume or maybe open Google Chrome etc. For this project, we will be using Tensorflow and OpenCV.
  
 
-## Technical Aspect
-
-This project is divided into 3 parts:
-
-1. Web scraping video game details on the site in order to find as many information as possible (name, price, genre, availability, supported console) and then grouping it all in a single data frame. We will be using the following modules : 
-
-```bash
-import requests
-from bs4 import BeautifulSoup
-import time  
-import re
-import pandas as pd
-```
-2. Data analysis and visualization of said data frame with these additional modules :
-
-```bash
-import seaborn as sns
-import matplotlib.pyplot as plt
-```
-3. The last part revolves around downloading all the video game images from the site (also done with Beautiful Soup) and then analyzing said images for their PEGI rating using color detection : 
+## Technical Aspect 
 
 ```bash
 import PIL
