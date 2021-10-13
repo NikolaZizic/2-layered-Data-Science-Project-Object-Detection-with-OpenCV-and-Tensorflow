@@ -39,7 +39,7 @@ The code is written in Python 3.8.5 . If you don't have Python installed you can
 
 For the first part of our project we used OpenCV in order to, at first time, train and then build a model capable to recognize the user, once the user is recognized Part 2 of project will began. 
 
-## Modules used
+### Modules used
 
 ```bash
 import numpy as np
