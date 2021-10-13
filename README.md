@@ -48,9 +48,8 @@ import pickle
 import statistics as stat
 ```
 
-The main module for us was OpenCV, and its prebuilt algorithms called cascades. So before you begin make sure that you have modules needed, and pay attention to where you install OpenCV because you will need that file path in order to access cascades. Even if you forget the file location, don’t panic you can always use *[this command](#command).
+The main module for us was OpenCV, and its prebuilt algorithms called cascades. So before you begin make sure that you have modules needed, and pay attention to where you install OpenCV because you will need that file path in order to access cascades. Even if you forget the file location, don’t panic you can always use this command.
 
-<div id='command'/>
 ```bash
 import cv2
 print(cv2.__file__)
