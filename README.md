@@ -60,6 +60,11 @@ For the test data set we have used pictures found on internet of different perso
 
 <img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/Images.png">
 
+### Face recognition
+
+Firstly, we transformed our live input from web cam to gray scale, once that is done our model will define region of interest (ROI) and finally ROI will be used to make prediction and recognize the person sitting in front of camera.Also we have used confidence level to improve precision of our model, more precisely even if model recognize me if the level of confidence is lower than 70, model will return “Unknown” as output.
+
+
 <div id='hand-gesture'/>
 
 ## Part 2: Hand gesture detection with Tensorflow
