@@ -54,7 +54,11 @@ The main module for us was OpenCV, and its prebuilt algorithms called cascades. 
 import cv2
 print(cv2.__file__)
 ```
+### Training dataset
 
+For the test data set we have used pictures found on internet of different persons and mine photos. Our algorithm is capable to distinguish my face using web cam as input, if he does not recognize me the output will be label “Unknown”. 
+
+<img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/Images.png">
 
 <div id='hand-gesture'/>
 
