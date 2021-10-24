@@ -37,7 +37,7 @@ The code is written in Python 3.8.5 . If you don't have Python installed you can
 
 ## Part 1: Face detection with OpenCV
 
-For the first part of our project we used OpenCV in order to, at first time, train and then build a model capable to recognize the user, once the user is recognized Part 2 of project will began. 
+For the first part of our project we used OpenCV in order to, at first, train and then build a model capable to recognize the user. Once the user is recognized Part 2 of project will begin. 
 
 ### Modules used
 
@@ -48,7 +48,7 @@ import pickle
 import statistics as stat
 ```
 
-The main module for us was OpenCV, and its prebuilt algorithms called cascades. So before you begin make sure that you have modules needed, and pay attention to where you install OpenCV because you will need that file path in order to access cascades. Even if you forget the file location, don’t panic you can always use this command.
+The main module for us was OpenCV, and its prebuilt algorithms called cascades. So before you begin make sure that you have the modules needed, and pay attention to where you install OpenCV because you will need that file path in order to access cascades. Even if you forget the file location, don’t panic you can always use this command.
 
 ```bash
 import cv2
@@ -56,13 +56,13 @@ print(cv2.__file__)
 ```
 ### Training dataset
 
-For the test data set we have used pictures found on internet of different persons and mine photos. Our algorithm is capable to distinguish my face using web cam as input, if he does not recognize me the output will be label “Unknown”. 
+For the test dataset we have used pictures of different people found on the Internet as well as our own photos. Our algorithm is capable to distinguish our faces using the webcam as input, if it does not recognize me, the output will be labeled “Unknown”. 
 
 <img src="https://github.com/NikolaZizic/2-layered-Data-Science-Project-Object-Detection-with-OpenCV-and-Tensorflow/blob/main/images/Images.png">
 
 ### Face recognition
 
-Firstly, we transformed our live input from web cam to gray scale, once that is done our model will define region of interest (ROI) and finally ROI will be used to make prediction and recognize the person sitting in front of camera.Also we have used confidence level to improve precision of our model, more precisely even if model recognize me if the level of confidence is lower than 70, model will return “Unknown” as output.
+First, we transformed our live input from the webcam to gray scale. Once that is done, our model will define the region of interest (ROI) and finally ROI will be used to make a prediction and recognize the person sitting in front of the camera.Also we have used a confidence level to improve precision of our model, more precisely even if the model recognizes me ,if the level of confidence is lower than 70, the model will return “Unknown” as output.
 
 
 <div id='hand-gesture'/>
