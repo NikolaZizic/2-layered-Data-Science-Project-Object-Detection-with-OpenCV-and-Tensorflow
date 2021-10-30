@@ -37,7 +37,7 @@ The code is written in Python 3.8.5 . If you don't have Python installed you can
 
 ## Part 1: Face detection with OpenCV
 
-For the first part of our project we used OpenCV in order to, at first, train and then build a model capable to recognize the user. Once the user is recognized Part 2 of project will begin. 
+For the first part of our project we used OpenCV in order to, at first, train and then build a model capable to recognize the user. Once the user is recognized Part 2 of the  project will begin. 
 
 ### Modules used
 
@@ -62,7 +62,7 @@ For the test dataset we have used pictures of different people found on the Inte
 
 ### Face recognition
 
-First, we transformed our live input from the webcam to gray scale. Once that is done, our model will define the region of interest (ROI) and finally ROI will be used to make a prediction and recognize the person sitting in front of the camera.Also we have used a confidence level to improve precision of our model, more precisely even if the model recognizes me ,if the level of confidence is lower than 70, the model will return “Unknown” as output.
+First, we transformed our live input from the webcam to gray scale. Once that is done, our model will define the region of interest (ROI) and finally ROI will be used to make a prediction and recognize the person sitting in front of the camera. Also we have used a confidence level to improve precision of our model, more precisely even if the model recognizes me ,if the level of confidence is lower than 70, the model will return “Unknown” as output.
 
 
 <div id='hand-gesture'/>
